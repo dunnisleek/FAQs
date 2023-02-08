@@ -1,0 +1,87 @@
+body{
+       background: purple;
+}
+.wrapper{
+       background: #fff;
+       width:80%;
+       display: flex;
+       gap:120px;
+       /* justify-content: space-between; */
+       /* width:800px; */
+       margin: 130px auto;
+       padding: 60px;
+       align-items: center;
+       justify-content: center;
+       border-radius: 8px;
+    
+       height:auto;
+}
+.right-handWrapper {
+       width:50%;
+    
+}
+dd{ position: relative;
+       /* box-shadow: 2px 0 8px #b6325e91; */
+       margin: 0;
+       padding: 10px 20px;
+}
+div .right-hand{
+       border:1px solid grey;
+      margin: 0px;
+       padding: 23px 20px;
+       margin-bottom: 30px;
+       position: relative;
+      
+}
+.right-hand img{
+       position: absolute;
+    right: 0;
+    left: 500;
+    top:14;
+    /* transition: all 0.6s linear; */
+    background: #F2EEF4;
+    /* width:20px; */
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 100%;
+    transform: rotate(-90deg);
+    /* transform: rotate(-180deg);
+    transition: .3s; */
+   
+}
+.right-hand img:hover{
+       transform: rotate(-40deg);
+transition: .3s ease-in-out;
+       /* transform: rotate(-80deg) ; */
+}
+/* dt .right-hand::before{
+       content: '';
+       position: absolute;
+       top:50%;
+       right:0;
+       transform: translateY(-50%) rotate(0deg) ;
+
+    
+       background: url('image/down-arrow.png');
+       background-position: center;
+} */
+h2{
+       width:200px;
+       font-size: 30px;
+       line-height: 40px;
+      position: absolute;
+      top:190;
+      left: 180;
+}
+
+/* .plusbtn{
+       position: absolute;
+       left: 1200;
+       right: 0;
+       cursor: pointer;
+       top: 186;
+       width:300px;
+       height:10vh;
+       display: inline-block;
+       transform: translateY(-50%) rotate(0deg); 
+       }     
